@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-1",
-      "name": "1",
+      "id": "0-sala-de-descanso",
+      "name": "Sala de descanso",
       "levels": [
         {
           "tileSize": 256,
@@ -33,14 +33,14 @@ var APP_DATA = {
           "yaw": -2.4885371904103852,
           "pitch": 0.39414295043960834,
           "rotation": 12.566370614359176,
-          "target": "1-2"
+          "target": "1-zona-de-entrenamiento"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-2",
-      "name": "2",
+      "id": "1-zona-de-entrenamiento",
+      "name": "Zona de entrenamiento",
       "levels": [
         {
           "tileSize": 256,
@@ -71,20 +71,20 @@ var APP_DATA = {
           "yaw": 0.6278274593235231,
           "pitch": 0.34432033407745166,
           "rotation": 6.283185307179586,
-          "target": "0-1"
+          "target": "0-sala-de-descanso"
         },
         {
           "yaw": 2.366876837587749,
           "pitch": 0.3277711672862935,
           "rotation": 0.7853981633974483,
-          "target": "2-3"
+          "target": "2-zona-de-camilla"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-3",
-      "name": "3",
+      "id": "2-zona-de-camilla",
+      "name": "Zona de camilla",
       "levels": [
         {
           "tileSize": 256,
@@ -115,7 +115,7 @@ var APP_DATA = {
           "yaw": -0.7227965464035151,
           "pitch": 0.6889024174256377,
           "rotation": 5.497787143782138,
-          "target": "1-2"
+          "target": "1-zona-de-entrenamiento"
         }
       ],
       "infoHotspots": []
